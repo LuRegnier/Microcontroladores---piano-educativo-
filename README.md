@@ -2,7 +2,7 @@
 
 - **programa de um piano educativo feito em python e arduino**
 
-A idéia é criar um teclado educativo para quem não sabe tocar o instrumento. Ele contará com um Display Touch que mostrará uma pequena mão, que em cada dedo da mão terá um número. Ao lado da mão, terá um mini teclado, representando o teclado real. Nele, terão os mesmos números que estão na mão, demonstrando qual (ou quais) tecla(s) deverão ser tocadas no momento.
+A idéia é criar um teclado educativo para quem não sabe tocar o instrumento. Ele contará com um Display Touch que mostrará uma clave de sol (partitura) representando qual nota deve ser tocada. Abaixo, terá um mini teclado, representando o teclado real. Nele, ficará um desenho de bolinha verde ao tocar uma tecla e amarelo no modo aluno, demonstrando qual (ou quais) tecla(s) deverão ser tocadas no momento.
 
 No teclado real, terão 12 teclas (representando as notas sonoras) que contarão com LED’s RGB posicionadas acima das teclas, representando com cores (Vermelho,Amarelo e Verde) quando serão tocadas.
 A cor vermelha irá representar erro. Ou seja, caso a pessoa que esteja aprendendo segure a tecla por tempo demais, não toque a tecla certa no tempo certo ou toque a tecla errada, a luz vermelha irá surgir no LED.
