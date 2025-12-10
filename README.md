@@ -1,6 +1,6 @@
 # piano educativo
 
-**programa de um piano educativo feito em python e arduino**
+- **programa de um piano educativo feito em python e arduino**
 
 A idéia é criar um teclado educativo para quem não sabe tocar o instrumento. Ele contará com um Display Touch que mostrará uma pequena mão, que em cada dedo da mão terá um número. Ao lado da mão, terá um mini teclado, representando o teclado real. Nele, terão os mesmos números que estão na mão, demonstrando qual (ou quais) tecla(s) deverão ser tocadas no momento.
 
@@ -11,12 +11,13 @@ A amarela representa atenção. A pessoa precisa ficar atenta na qual tecla irá
 
 Finalmente, a tecla verde representa acerto. Quando a pessoa toca a tecla no tempo certo, na ordem certa, LED’s verdes começarão a aparecer, demonstrando que ela está tocando a música corretamente.
 
-**Arquitetura geral do projeto:**
+
+- **Arquitetura geral do projeto:**
 
 O projeto conecta o código em Python ao piano físico (Arduino) através da comunicação via serial, funcionando com prints na serial vindos tanto do arduino (qual tecla foi apertada ou solta) Quanto do python (Qual tecla deve ser apertada no modo aluno, enviar cor vermelha caso não tenha sido apertada dentro de 5 segundos). O Python atua como o cérebro que processa o som, enquanto o Arduino age como a interface física. Quando você toca uma tecla, O Arduino detecta os toques nas teclas e envia comandos como "DO_ON" para a serial, enquanto o Python utiliza uma Thread paralela para ler essas mensagens na serial e processando a string recebida para gerar o som MIDI e, quando necessário (no Modo Aluno), enviando comandos de volta (como "DO_YELLOW") para que o Arduino acione os LEDs e desenhe uma bolinha amarela na tela.
 
 
-**Drive com o arquivo .fzz mostrando acConexão dos componentes no arduino:**
+- **Drive com o arquivo .fzz mostrando acConexão dos componentes no arduino:**
 
 https://drive.google.com/drive/folders/1IXoEkHow1AXueu0PAG34DisQG5hfJOlb?usp=drive_link
 
