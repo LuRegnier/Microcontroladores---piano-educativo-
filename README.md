@@ -14,7 +14,9 @@ Finalmente, a tecla verde representa acerto. Quando a pessoa toca a tecla no tem
 
 - **Arquitetura geral do projeto:**
 
-O projeto conecta o código em Python ao piano físico (Arduino) através da comunicação via serial, funcionando com prints na serial vindos tanto do arduino (qual tecla foi apertada ou solta) Quanto do python (Qual tecla deve ser apertada no modo aluno, enviar cor vermelha caso não tenha sido apertada dentro de 5 segundos). O Python atua como o cérebro que processa o som, enquanto o Arduino age como a interface física. Quando você toca uma tecla, O Arduino detecta os toques nas teclas e envia comandos como "DO_ON" para a serial, enquanto o Python utiliza uma Thread paralela para ler essas mensagens na serial e processando a string recebida para gerar o som MIDI e, quando necessário (no Modo Aluno), enviando comandos de volta (como "DO_YELLOW") para que o Arduino acione os LEDs e desenhe uma bolinha amarela na tela.
+O projeto conecta o código em Python ao piano físico (Arduino) através da comunicação via serial, funcionando com prints na serial vindos tanto do arduino (qual tecla foi apertada ou solta) Quanto do python (Qual tecla deve ser apertada no modo aluno, enviar cor vermelha caso não tenha sido apertada dentro de 5 segundos). O Python atua como o cérebro que processa o som, enquanto o Arduino age como a interface física. 
+
+Quando você toca uma tecla, o Arduino detecta os toques nas teclas e envia comandos como "DO_ON" para a serial, enquanto o Python utiliza uma Thread paralela para ler essas mensagens na serial e processando a string recebida para gerar o som MIDI e, quando necessário (no Modo Aluno), enviando comandos de volta (como "DO_YELLOW") para que o Arduino acione os LEDs e desenhe uma bolinha amarela na tela.
 
 
 - **Drive com o arquivo .fzz mostrando a conexão dos componentes no arduino:**
