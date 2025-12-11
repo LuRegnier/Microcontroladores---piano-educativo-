@@ -28,3 +28,6 @@ https://drive.google.com/drive/folders/1IXoEkHow1AXueu0PAG34DisQG5hfJOlb?usp=dri
 
 https://www.youtube.com/watch?v=LNS3ajjvbTU
 
+- **Imagem do circuito:**
+<img width="1259" height="960" alt="arduino_teclado_educativo_bb" src="https://github.com/user-attachments/assets/095e5b96-176f-401e-a41a-20fe6575ecc2" />
+
