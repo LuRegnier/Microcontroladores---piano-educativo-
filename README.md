@@ -23,3 +23,8 @@ Quando você toca uma tecla, o Arduino detecta os toques nas teclas e envia coma
 
 https://drive.google.com/drive/folders/1IXoEkHow1AXueu0PAG34DisQG5hfJOlb?usp=drive_link
 
+
+- **Link com o video do projeto:**
+
+https://www.youtube.com/watch?v=LNS3ajjvbTU
+
